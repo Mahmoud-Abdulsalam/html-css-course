@@ -10,7 +10,7 @@
     cursor: pointer;
     margin-right: 8px;
     transition: opacity 0.15;
-
+vertical-align: top;
 }
 #button1:hover{
     opacity: 0.8;
@@ -24,10 +24,10 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(41, 118, 211);
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 1px;
-    padding-right: 6px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
     border-radius: 2px;
     font-weight: bold;
     cursor: pointer;
@@ -47,13 +47,16 @@
     background-color: rgb(2, 158, 255);
     color: white;
     border: none;
-    height: 35px;
-    width: 74px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     transition: box-shadow 0.15px;
+    vertical-align: top;
 }
 #button3:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0.15);
@@ -64,11 +67,14 @@ background-color: rgb(109, 230, 64);
 border: none;
 color: white;
 font-weight: bold;
-height: 40px;
-width: 75px;
+padding-left: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 16px;
 border-radius: 17px;
 cursor: pointer;
 transition: box-shadow 0.15px;
+vertical-align: top;
 }
 #button4:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0.15);
